@@ -1,14 +1,14 @@
-﻿using Lab2Part2;
+﻿using Lab2Pt2;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab2Part2
+namespace Lab2Pt2
 {
     public interface RemoveMethod
     {
-        delegate void remove(Helper h);
+        public delegate void remove(Helper h);
     }
 }

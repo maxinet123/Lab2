@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab2Part2
+namespace Lab2Pt2
 {
     public class Manager : RemoveMethod
     {

@@ -11,8 +11,8 @@ namespace Lab2
         public static void Main(string[] args)
         {
             Manager mgr = new Manager();
-            //Client(mgr);
-            
+            Client client = new Client(mgr);
+            client.work();
         }
     }
 }

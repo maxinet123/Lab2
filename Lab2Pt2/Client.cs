@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab2
+namespace Lab2Pt2
 {
     public class Client
     {
-        private Manager mgr = new Manager();
+        public Manager mgr = new Manager();
+
         public Client(Manager manager)
         {
             mgr = manager;
@@ -20,7 +21,7 @@ namespace Lab2
             Helper h = mgr.requestHelp();
             h.doWork();
             h.finished();
-            Console.WriteLine("Client is happy after was completed");
+            Console.WriteLine("Client is happy task was completed");
         }
     }
 }

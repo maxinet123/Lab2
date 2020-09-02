@@ -10,7 +10,9 @@ namespace Lab2Part2
     {
         public static void Main(string[] args)
         {
-
+            Manager mgr = new Manager();
+            Client client = new Client(mgr);
+            client.work();
         }
     }
 }

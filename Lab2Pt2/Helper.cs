@@ -1,15 +1,16 @@
-﻿using Lab2Part2;
+﻿using Lab2Pt2;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab2Part2
+namespace Lab2Pt2
 {
     public class Helper
     {
         private RemoveMethod done;
+
         public Helper(RemoveMethod done)
         {
             this.done = done;
@@ -21,7 +22,7 @@ namespace Lab2Part2
 
         public void finished()
         {
-            done(this);
+            //done(this);
             Console.WriteLine("Helper completes task");
         }
     }
