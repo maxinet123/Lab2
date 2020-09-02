@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{24E3B284-4C95-4EE4-A754-434CAFC65C07}</ProjectGuid>
+    <ProjectGuid>{A59359BF-5122-498F-A6BC-34F7BA649110}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lab2</RootNamespace>
-    <AssemblyName>Lab2</AssemblyName>
+    <RootNamespace>Lab2Part2</RootNamespace>
+    <AssemblyName>Lab2Part2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,6 +48,7 @@
     <Compile Include="Manager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RemoveMethod.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
