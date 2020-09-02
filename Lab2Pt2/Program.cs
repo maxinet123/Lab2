@@ -2,11 +2,11 @@
 
 namespace Lab2Pt2
 {
-    class Program
+    public delegate void RemoveMethod(Helper h);
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
             Manager mgr = new Manager();
             Client client = new Client(mgr);
             client.work();

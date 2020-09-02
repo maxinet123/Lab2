@@ -9,11 +9,11 @@ namespace Lab2Pt2
 {
     public class Helper
     {
-        private RemoveMethod done;
+        private RemoveMethod remove;
 
         public Helper(RemoveMethod done)
         {
-            this.done = done;
+            remove = done;
         }
         public void doWork()
         {
@@ -22,7 +22,6 @@ namespace Lab2Pt2
 
         public void finished()
         {
-            //done(this);
             Console.WriteLine("Helper completes task");
         }
     }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab2Pt2
 {
-    public class Manager : RemoveMethod
+    public class Manager
     {
         private List<Helper> active = new List<Helper>();
 
@@ -18,7 +18,7 @@ namespace Lab2Pt2
 
         public Helper requestHelp()
         {
-            Helper h = new Helper(this);
+            Helper h = new Helper(remove);
             active.Add(h);
             Console.WriteLine("Manager assigns a helper to client");
             return h;
